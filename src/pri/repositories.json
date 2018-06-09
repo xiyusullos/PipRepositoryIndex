@@ -1,0 +1,22 @@
+[
+  {
+    "name": "pypi",
+    "url": "https://pypi.python.org/simple/"
+  },
+  {
+    "name": "tuna",
+    "url": "https://pypi.tuna.tsinghua.edu.cn/simple"
+  },
+  {
+    "name": "douban",
+    "url": "http://pypi.douban.com/simple/"
+  },
+  {
+    "name": "aliyun",
+    "url": "https://mirrors.aliyun.com/pypi/simple/"
+  },
+  {
+    "name": "ustc",
+    "url": "https://mirrors.ustc.edu.cn/pypi/web/simple"
+  }
+]
