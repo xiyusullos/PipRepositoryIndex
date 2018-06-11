@@ -6,7 +6,7 @@ PACKAGE_NAME = 'pri'
 
 here = os.path.abspath(os.path.dirname(__file__))
 try:
-    README = open(os.path.join(here, 'README.rst'), encoding='utf-8').read()
+    README = open(os.path.join(here, 'README.md'), encoding='utf-8').read()
 except:
     README = ''
 VERSION = imp.load_source('version', os.path.join(here, 'src/%s/version.py' % PACKAGE_NAME)).__version__
