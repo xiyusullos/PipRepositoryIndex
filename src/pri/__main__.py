@@ -3,14 +3,14 @@
 # @author    : xiyusullos <i@xy-jit.cc>
 # @time      : 2018-06-09 14:46
 # @copyright : Copyright (C) 2018 xiyusullos.
-# @file      : prm.py
-'''prm
+# @file      : __main__.py
+'''pri
 Usage:
-  prm ls
-  prm use <repository_name>
-  prm current
-  prm (-v | --version)
-  prm (-h | --help)
+  pri ls
+  pri use <repository_name>
+  pri current
+  pri (-v | --version)
+  pri (-h | --help)
 Options:
   -h, --help                   output usage information
   -v, --version                output the version number
@@ -23,7 +23,7 @@ import re
 
 from docopt import docopt
 
-from prm.version import __version__
+from pri.version import __version__
 
 
 def is_windows():
