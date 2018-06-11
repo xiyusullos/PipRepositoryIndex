@@ -4,7 +4,7 @@
 # @time      : 2018-06-09 14:46
 # @copyright : Copyright (C) 2018 xiyusullos.
 # @file      : __main__.py
-'''pri
+"""pri
 Usage:
   pri ls
   pri use <repository_name>
@@ -14,8 +14,11 @@ Usage:
 Options:
   -h, --help                   output usage information
   -v, --version                output the version number
-'''
+"""
+from __future__ import print_function
+
 import configparser
+import io
 import json
 import os
 import platform
@@ -43,7 +46,7 @@ def init():
 def _all_repositories():
     repositories_name = 'repositories.json'
     repositories_path = os.sep.join([os.path.dirname(__file__), repositories_name])
-    with open(repositories_path, encoding='utf-8') as f:
+    with io.open(repositories_path, encoding='utf-8') as f:
         return json.load(f)
 
 
